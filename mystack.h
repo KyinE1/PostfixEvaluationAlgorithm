@@ -1,9 +1,3 @@
-/*
-	mystack.h
-	Date Written: 3/18
-	Created by Kyin Edwards
-*/
-
 #ifndef MYSTACK_H
 #define MYSTACK_H
 
@@ -29,11 +23,8 @@ class mystack {
 	
 	public:
 		mystack();
-		// Copy constructor. 
-		mystack(const mystack&);
-		// Destructor for setting default value.  
+		mystack(const mystack&);  
 		~mystack();
-		// Overloaded copy assignment operator.
 		mystack&operator=(const mystack&);
 		size_t size() const;
 		bool empty() const;
