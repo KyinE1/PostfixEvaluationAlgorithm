@@ -8,11 +8,11 @@ using std::cout;
 using std::string;
 using std::endl;
 
-/*
-	Reads a series of infix strings from standard input. Each string is converted to postfix, printed, evaluated to find the result, and then the result is printed.
- 
-	@return Returns 0 upon successful completion.
-*/
+/** Reads a series of infix strings from standard input. Each string is converted to 
+ *  postfix, printed, evaluated to find the result.
+ * 
+ * @return: End of driver code.
+ */
 int main() {
     string infix;
     string postfix;
